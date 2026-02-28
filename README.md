@@ -3,7 +3,8 @@
 This repository contains the official robot code for a FIRST Robotics Competition (FRC) team. It is organized to support rapid development, testing, and iteration during the build season and competition.
 
 ## Useful Links
-- 2026 Game manual: https://firstfrc.blob.core.windows.net/frc2026/Manual/2026GameManual.pdf
+- [2026 Java Code Guide](https://firstfrc.blob.core.windows.net/frc2026/KitBot/2026-kitbot-java-guide.pdf) This file helps explain how the code was set up. 
+- [2026 Game manual](https://firstfrc.blob.core.windows.net/frc2026/Manual/2026GameManual.pdf)
 
 ## Purpose
 - Control the robot during autonomous, teleoperated, and test modes
