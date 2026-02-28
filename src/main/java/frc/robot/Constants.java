@@ -17,10 +17,10 @@ package frc.robot;
 public final class Constants {
   public static final class DriveConstants {
     // Motor controller IDs for drivetrain motors
-    public static final int LEFT_LEADER_ID = 7; // was 1, not sure if this is the leader.
-    public static final int LEFT_FOLLOWER_ID = 8; // was 2, not sure if follower
-    public static final int RIGHT_LEADER_ID = 5;// was 3
-    public static final int RIGHT_FOLLOWER_ID = 6;// was 4
+    public static final int LEFT_LEADER_ID = 7;
+    public static final int LEFT_FOLLOWER_ID = 8;
+    public static final int RIGHT_LEADER_ID = 5;
+    public static final int RIGHT_FOLLOWER_ID = 6;
 
     // Current limit for drivetrain motors. 60A is a reasonable maximum to reduce
     // likelihood of tripping breakers or damaging CIM motors
@@ -29,8 +29,8 @@ public final class Constants {
 
   public static final class FuelConstants {
     // Motor controller IDs for Fuel Mechanism motors
-    public static final int FEEDER_MOTOR_ID = 16; // i think should 16
-    public static final int INTAKE_LAUNCHER_MOTOR_ID = 4; // i think should be 4
+    public static final int FEEDER_MOTOR_ID = 16;
+    public static final int INTAKE_LAUNCHER_MOTOR_ID = 4;
 
     // Current limit and nominal voltage for fuel mechanism motors.
     public static final int FEEDER_MOTOR_CURRENT_LIMIT = 60;
@@ -39,11 +39,11 @@ public final class Constants {
     // Voltage values for various fuel operations. These values may need to be tuned
     // based on exact robot construction.
     // See the Software Guide for tuning information
-    public static final double INTAKING_FEEDER_VOLTAGE = -3; // Max of 12 which seems too fast
-    public static final double INTAKING_INTAKE_VOLTAGE = 3; // Was at 10
-    public static final double LAUNCHING_FEEDER_VOLTAGE = 3; // Was at 9
-    public static final double LAUNCHING_LAUNCHER_VOLTAGE = 5.3; // Was 10.6
-    public static final double SPIN_UP_FEEDER_VOLTAGE = -3; // was -6
+    public static final double INTAKING_FEEDER_VOLTAGE = -12;
+    public static final double INTAKING_INTAKE_VOLTAGE = 10;
+    public static final double LAUNCHING_FEEDER_VOLTAGE = 9;
+    public static final double LAUNCHING_LAUNCHER_VOLTAGE = 10.6;
+    public static final double SPIN_UP_FEEDER_VOLTAGE = -6;
     public static final double SPIN_UP_SECONDS = 1;
   }
 
